@@ -1,0 +1,2 @@
+www.google.com;Google
+195.175.39.39;Turk Telekom DNS
