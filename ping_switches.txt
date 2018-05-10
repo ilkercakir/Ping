@@ -1,1 +1,35 @@
-192.168.1.1;LAN Switch
+172.16.1.1;Sophos Merkez
+10.10.20.1;Fortigate SOL
+10.10.44.1;Ankara Ofis
+10.10.71.1;Barbaros
+10.10.67.1;Caddebostan
+10.10.61.1;Freysaş
+10.10.55.1;Gebze Atölye
+10.10.42.1;Konya Çumra
+10.10.48.1;Konya Ofis
+10.10.50.1;Lüleburgaz
+10.10.53.1;Mandarin
+10.10.54.1;Mandarin LAN
+10.10.51.1;Prefabrikasyon
+10.10.70.1;Yapıkonut
+10.34.35.1;İdis
+10.34.36.1;İdis Masaldan
+10.10.180.10;Addis Ababa
+10.5.10.5;Azure
+10.10.204.1;COK Levent
+10.10.104.1;JDH Cidde
+10.10.125.10;CTW130
+10.10.204.250;DLSYJV Ofis
+10.10.112.10;CT2
+10.10.8.19;IKZ
+10.10.155.10;AKH Kombolcha
+10.10.116.10;SBA
+10.10.20.21;TER
+10.10.108.10;STF
+10.10.164.10;AKH Shewarobit
+10.10.196.19;DSM Soga
+10.10.188.19;DSM Ilala
+10.10.192.19;DSM Upanga
+10.10.16.19;Yapıray
+10.10.76.1;YES
+130.117.185.133;YES Uydu Dış

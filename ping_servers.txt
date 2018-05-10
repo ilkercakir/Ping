@@ -1,2 +1,23 @@
-www.google.com;Google
-195.175.39.39;Turk Telekom DNS
+172.16.1.91;E-Fatura Canlı
+ym365dirsync.ym.com.tr;Dirsync
+ymasta2018.ym.com.tr;Asta
+ymcostos.ym.com.tr;Costos
+ymd2017.ym.com.tr;Active Directory SOL
+ymd2018.ym.com.tr;Active Directory YM
+ymfiles.ym.com.tr;YMFiles
+ymfnett.ym.com.tr;FileNet Test
+ymfnet.ym.com.tr;FileNet
+ymhukuk2017.ym.com.tr;Hukuk
+ymi2013.ym.com.tr;Intranet
+ymoa2017.ym.com.tr;YMOA
+ympcm.ym.com.tr;PCM
+ymportal2015.ym.com.tr;YMPortal
+ymsapbo.ym.com.tr;SAP BO
+ymsapinvtest.ym.com.tr;E-Fatura Test
+ymsapprint.ym.com.tr;SAP Print
+ymsapprod.ym.com.tr;SAP Prod
+ymsapqa.ym.com.tr;SAP QA
+ymsaprouter.ym.com.tr;SAP Router
+ymsapsolmgr.ym.com.tr;SAP Solman
+ymsaptest.ym.com.tr;SAP Test
+ymvcenter.ym.com.tr;VCenter

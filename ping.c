@@ -20,7 +20,10 @@
  * 
  * 
  */
- 
+
+// compile with gcc -Wall -c "%f" -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -DTARGET_POSIX -D_LINUX -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -U_FORTIFY_SOURCE -g -ftree-vectorize -pipe -Wno-deprecated-declarations $(pkg-config --cflags gtk+-3.0)
+// link with gcc -Wall -o "%e" "%f" -D_POSIX_C_SOURCE=199309L $(pkg-config --cflags gtk+-3.0) -Wl,--whole-archive -lpthread -lrt -ldl -lm -Wl,--no-whole-archive -rdynamic $(pkg-config --libs gtk+-3.0)
+
 #include "ping.h"
 
 void get_first_time_microseconds(pinginterval *t, int secs)
@@ -240,11 +243,17 @@ void close_ping(pingdata *p)
 {
 	int ret;
 
-//printf("shutting down %d\n", p->id);
+//printf("shutting down socket %d\n", p->id);
 	if ((ret=shutdown(p->sockfd, SHUT_RDWR)))
 	{
 		//perror("shutdown error");
 	}
+//printf("closing socket %d\n", p->id);
+	if ((ret=close(p->sockfd)))
+	{
+		//perror("close error");
+	}
+//printf("shutdown/close done %d\n", p->id);
 }
 
 void init_pingdata(pingthread *pt, pingdata *p, int i)
@@ -573,7 +582,7 @@ void setup_default_icon(char *filename)
 		gtk_window_set_default_icon_list(list);
 		g_list_free(list);
 		g_object_unref(pixbuf);
-    	}
+    }
 }
 
 int main(int argc, char **argv)

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Ping Monitor
+Comment=Ping Monitor
+Exec=sudo "/home/pi/Desktop/C/TCP/Ping/ping"
+Icon=/home/pi/Desktop/C/TCP/Ping/images/Ping.png
+Terminal=false
+Path=/home/pi/Desktop/C/TCP/Ping
+GenericName=Ping Monitor
+StartupNotify=false
+Name[tr_TR]=Ping Monitor
+Categories=GNOME;GTK;Network
